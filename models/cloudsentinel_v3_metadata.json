@@ -1,0 +1,27 @@
+{
+    "project": "CloudSentinel AI",
+    "model_name": "Isolation Forest V3",
+    "model_type": "unsupervised_anomaly_detection",
+    "feature_columns": [
+        "cpu_utilization",
+        "memory_utilization",
+        "network_in",
+        "request_count",
+        "storage_usage",
+        "estimated_cost",
+        "cpu_utilization_deviation",
+        "memory_utilization_deviation",
+        "network_in_deviation",
+        "request_count_deviation",
+        "estimated_cost_deviation"
+    ],
+    "contamination": 0.007,
+    "n_estimators": 200,
+    "random_state": 42,
+    "validation_method": "chronological_holdout",
+    "test_precision": 0.55,
+    "test_recall": 0.6471,
+    "test_f1": 0.5946,
+    "test_records": 2880,
+    "test_anomalies": 17
+}

@@ -1,0 +1,71 @@
+
+# ==============================
+# Python environments
+# ==============================
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+
+# ==============================
+# Python cache and compiled files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Jupyter Notebook temporary files
+# ==============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==============================
+# Secrets and credentials
+# ==============================
+.env
+.env.*
+!.env.example
+.aws/
+*credentials*
+*secret*
+*.pem
+*.key
+
+# ==============================
+# Local IDE and operating-system files
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Temporary test outputs
+# ==============================
+test-event.json
+response.json
+response-*.json
+*.log
+*.tmp
+
+# ==============================
+# Generated local outputs
+# Keep the original synthetic dataset in data/raw/
+# ==============================
+data/processed/
+!data/processed/.gitkeep
+
+# ==============================
+# Streamlit local configuration
+# ==============================
+.streamlit/secrets.toml
+
+# ==============================
+# Temporary build artifacts
+# ==============================
+build/
+dist/
+*.egg-info/
